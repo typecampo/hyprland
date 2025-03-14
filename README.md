@@ -4,6 +4,19 @@ Set media server to pipewire
 Set Profile to Minimal  
 
 ## hyprland
+### Critical
+See: https://wiki.hyprland.org/Useful-Utilities/Must-have/  
+swaync  
+xdg-desktop-portal-hyprland  
+xdg-desktop-portal-gtk  
+hyprpolkitagent  
+exec-once = systemctl --user start hyprpolkitagent  
+qt5-wayland  
+qt6-wayland
+
+### yay
+hyprshot
+
 ### Laptop with external monitors via USB-C/Thunderbolt dock  
 See: https://wiki.hyprland.org/FAQ/#my-external-monitor-is-blank--doesnt-render--receives-no-signal-laptop  
 See: https://github.com/hyprwm/Hyprland/issues/7825  
@@ -24,3 +37,9 @@ intel-media-driver
 See: https://wiki.archlinux.org/title/Chromium#Hardware_video_acceleration  
 $browser = google-chrome-stable --enable-features=AcceleratedVideoDecodeLinuxGL  
 intel-gpu-tools -> intel_gpu_top
+
+### Misc
+nautilus  
+waybar  
+
+
